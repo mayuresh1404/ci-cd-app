@@ -23,7 +23,6 @@ jobs:
 
       - name: Run Tests
         run: |
-              cd .github\workflows\main
               npm install
               npm test
 
